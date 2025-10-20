@@ -81,6 +81,7 @@ C:\KeylogDetector
 │   ├── screenshot_quarantine_folder.png
 
 │   └── ...
+
 └── quarantine/      # (auto-created, gitignored)
 
 ### 🧪 Demo Steps (Lab Workflow)
