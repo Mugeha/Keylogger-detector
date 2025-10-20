@@ -75,6 +75,7 @@ C:\KeylogDetector
 ├── demo_instructions.txt
 
 ├── screenshots/
+
 │   ├── screenshot_detector_detected.png
 │   ├── screenshot_quarantine_folder.png
 │   └── ...
