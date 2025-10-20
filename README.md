@@ -18,6 +18,7 @@ Always test in an **isolated virtual machine (VM)** snapshot — never on a prod
 ## 🧩 Project Overview
 
 | Component | Description |
+
 |------------|--------------|
 | **`detector_gui.py`** | Full-featured Tkinter GUI to scan, detect, quarantine, and log suspicious processes. |
 | **`detector_agent.py`** | Console-only background scanner (same detection engine). |
@@ -66,6 +67,7 @@ Your C:\KeylogDetector folder should look like this:
 C:\KeylogDetector
 │
 ├── detector_gui.py
+
 ├── detector_agent.py
 ├── keylogger_test.py
 ├── demo_instructions.txt
