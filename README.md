@@ -79,6 +79,7 @@ C:\KeylogDetector
 │   ├── screenshot_detector_detected.png
 
 │   ├── screenshot_quarantine_folder.png
+
 │   └── ...
 └── quarantine/      # (auto-created, gitignored)
 
