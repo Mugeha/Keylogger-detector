@@ -1,0 +1,38 @@
+## 📜 `demo_instructions.txt`
+
+Keylogger Detector — Demo Script
+
+🧩 STEP-BY-STEP DEMO (for video or presentation)
+
+1️⃣ Launch your Windows VM (snapshot restored).
+
+2️⃣ Open Command Prompt:
+cd C:\KeylogDetector
+python keylogger_test.py
+
+Open Notepad and type a few characters.
+
+Show the keylog file at: C:\Users\Public\keylog_test.txt
+
+3️⃣ Minimize the keylogger CMD window (leave it running).
+
+4️⃣ Open another Command Prompt (Run as Administrator):
+cd C:\KeylogDetector
+python detector_gui.py
+
+5️⃣ In the GUI:
+
+Click “Start Scanning”
+
+Wait ~10 seconds
+
+Read detection log lines aloud:
+“Detected suspicious process python.exe ... quarantined successfully”
+
+6️⃣ Click “Open Quarantine Folder” → show quarantined file.
+
+7️⃣ Open Task Manager → confirm keylogger terminated.
+
+8️⃣ Click “Take Screenshot” in the GUI → show confirmation in log.
+
+9️⃣ Click “Stop Scanning” and close the GUI.
